@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "使用 selenium2 进行测试"
+date:   2017-08-21
+categories: selenium selenium2 前端
+---
+
 # 使用 selenium2 进行测试
 
 1. 下载浏览器对应版本的 WebDriver.
@@ -38,6 +45,7 @@ public class App {
 ```
 
 4. 页面元素操作
+
 ```
 private static void searchOnBing() {
     Navigation navigation = driver.navigate();
