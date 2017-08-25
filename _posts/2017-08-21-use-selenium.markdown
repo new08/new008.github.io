@@ -7,8 +7,8 @@ categories: selenium selenium2 前端
 
 # 使用 selenium2 进行测试
 
-1. 下载浏览器对应版本的 WebDriver.
-Chrome 的下载地址是 http://chromedriver.storage.googleapis.com/index.html
+1. 下载浏览器对应版本的 WebDriver.   
+[Chrome web driver](http://chromedriver.storage.googleapis.com/index.html)
 
 2. 创建 maven quick start 项目
 
