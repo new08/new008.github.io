@@ -5,16 +5,16 @@ date:   2017-08-24 17:49
 categories: jekyll
 ---
 
-#搭建 jekyll#
+# 搭建 jekyll
 
 **环境** ubuntu 17
 
 jekyll 是一个静态博客服务程序。支持使用 md 文本写博客。
 
-###同类工具
+### 同类工具
 hexo，基于 node 开发的博客程序。但是我在 ECS 上一直安装失败。
 
-###安装 jekyll
+### 安装 jekyll
 
 a. 首先需要安装 ruby
     
@@ -33,7 +33,7 @@ gem update jekyll
 
 ```
 
-###启动 jekyll
+### 启动 jekyll
 
 ```
 jekyll new test

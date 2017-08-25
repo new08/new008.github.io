@@ -1,4 +1,4 @@
-#使用 selenium2 进行测试
+# 使用 selenium2 进行测试
 
 1. 下载浏览器对应版本的 WebDriver.
 Chrome 的下载地址是 http://chromedriver.storage.googleapis.com/index.html
