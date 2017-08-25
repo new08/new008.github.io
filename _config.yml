@@ -24,6 +24,9 @@ github_username:  new08
 
 # Build settings
 markdown: kramdown
+sass:
+  sass_dir: assets/_sass
+  style: compressed
 # theme: minima
 plugins:
   - jekyll-feed
