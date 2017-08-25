@@ -3,17 +3,11 @@
 ---
 @charset "utf-8";
 
-
-
 // Width of the content area
 $content-width:    800px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
-
-
-
-
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
