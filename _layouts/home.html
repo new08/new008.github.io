@@ -2,13 +2,15 @@
 layout: default
 ---
 
-<div class="home">
+<div class="wrapper">
 
-  <h1 class="page-heading">Posts</h1>
+  <div class="text-center">
+    <h1 class="blue-title">Posts</h1>
+  </div>
   
   {{ content }}
 
-  <ul class="post-list">
+  <ul class="posts-list tab-one-list">
     {% for post in site.posts %}
       <li>
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
