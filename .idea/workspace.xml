@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f4498b9-1482-493e-8ed4-a316c5d798da" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/_sass/_components.comments.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/footer.html" afterPath="$PROJECT_DIR$/_includes/footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/_sass/_base.links.scss" afterPath="$PROJECT_DIR$/assets/_sass/_base.links.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -55,11 +55,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="comments.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="comments.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/comments.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="244">
               <caret line="18" column="221" lean-forward="false" selection-start-line="18" selection-start-column="217" selection-end-line="18" selection-end-column="221" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/footer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="35" column="27" lean-forward="false" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#footer#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_base.links.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/_sass/_base.links.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="464">
+              <caret line="65" column="21" lean-forward="true" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -76,8 +98,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>$</find>
-      <find>C4E8F8</find>
       <find>$primary-color-light</find>
       <find>$primary-color-dark</find>
       <find>primary-dark</find>
@@ -105,7 +125,9 @@
       <find>comments.html</find>
       <find>Comments</find>
       <find>page</find>
+      <find>foot</find>
       <find>conf</find>
+      <find>.btn-top</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -125,10 +147,8 @@
         <option value="$PROJECT_DIR$/assets/_sass/_components.img.scss" />
         <option value="$PROJECT_DIR$/assets/_sass/_base.text.scss" />
         <option value="$PROJECT_DIR$/assets/css/main.scss" />
-        <option value="$PROJECT_DIR$/assets/_sass/_base.links.scss" />
         <option value="$PROJECT_DIR$/assets/_sass/_settings.color.scss" />
         <option value="$PROJECT_DIR$/assets/_sass/_base.scss" />
-        <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/_posts/2017-08-21-use-selenium.markdown" />
         <option value="$PROJECT_DIR$/_posts/2017-08-24-use-jekyll.markdown" />
         <option value="$PROJECT_DIR$/_posts/2017-08-25-jekyll-config.markdown" />
@@ -142,6 +162,8 @@
         <option value="$PROJECT_DIR$/_includes/comments.html" />
         <option value="$PROJECT_DIR$/assets/_sass/vendor/_components.comments.scss" />
         <option value="$PROJECT_DIR$/assets/_sass/_components.comments.scss" />
+        <option value="$PROJECT_DIR$/_includes/footer.html" />
+        <option value="$PROJECT_DIR$/assets/_sass/_base.links.scss" />
       </list>
     </option>
   </component>
@@ -152,8 +174,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="841" />
-    <option name="y" value="193" />
+    <option name="x" value="679" />
+    <option name="y" value="117" />
     <option name="width" value="1436" />
     <option name="height" value="1047" />
   </component>
@@ -281,15 +303,15 @@
       <workItem from="1504231072392" duration="1333000" />
       <workItem from="1504254204151" duration="4189000" />
       <workItem from="1504316884127" duration="13000" />
-      <workItem from="1504333556088" duration="5297000" />
+      <workItem from="1504333556088" duration="5655000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18337000" />
+    <option name="totallyTimeSpent" value="18695000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="841" y="193" width="1436" height="1047" extended-state="0" />
+    <frame x="679" y="117" width="1436" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2453505" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -433,13 +455,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_site/assets/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="3" column="494" lean-forward="false" selection-start-line="3" selection-start-column="494" selection-end-line="3" selection-end-column="494" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_site/jekyll/2017/08/25/jekyll-config.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -550,13 +565,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/_sass/_base.links.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/_sass/_base.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -569,16 +577,6 @@
         <state relative-caret-position="552">
           <caret line="24" column="31" lean-forward="false" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="130" lean-forward="true" selection-start-line="7" selection-start-column="130" selection-end-line="7" selection-end-column="130" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#footer#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -741,6 +739,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="244">
           <caret line="18" column="221" lean-forward="false" selection-start-line="18" selection-start-column="217" selection-end-line="18" selection-end-column="221" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/assets/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="3" column="25700" lean-forward="false" selection-start-line="3" selection-start-column="25700" selection-end-line="3" selection-end-column="25700" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="35" column="27" lean-forward="false" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#footer#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/_sass/_base.links.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="65" column="21" lean-forward="true" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
           <folding />
         </state>
       </provider>

@@ -58,7 +58,11 @@ blockquote a {
   right: 20px;
 }
 
-.btn-top a, svg {
+.btn-footprint a {
+  z-index: 99;
+}
+
+.btn-footprint a, svg {
   fill: $primary-color;
 }
 
