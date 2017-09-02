@@ -4,7 +4,7 @@
 }
 .copyright {
   font-size: $small-font-size;
-  color: $white;
+  color: $primary-color-text;
 }
 .comment-desc {
   margin-top: 1.5em;
@@ -13,7 +13,7 @@
 }
 .error-desc {
   font-size: $large-font-size;
-  color: $white;
+  color: $primary-color-text;
 }
 
 /**
@@ -31,7 +31,7 @@
   justify-content: center;
   -webkit-justify-content: center;
   margin: 20px 0;
-  color: $blue;
+  color:$primary-color;
   align-items: center;
   -webkit-align-items: center;
   &:before {
@@ -41,7 +41,7 @@
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
-    border-top: 2px dashed $light-blue;
+    border-top: 2px dashed $divider-color;
     margin-right: 10px;
   }
   &:after {
@@ -51,7 +51,7 @@
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
-    border-top: 2px dashed $light-blue;
+    border-top: 2px dashed $divider-color;
     margin-left: 10px;
   }
 }
@@ -61,18 +61,18 @@
  */
 
 .blue-title {
-  color: $blue;
-  text-shadow: 1px 1px $dark-white,2px 2px $darker-white;
+  color:$primary-color;
+  text-shadow: 1px 1px $divider-color,2px 2px $divider-color;
 }
 .white-title {
-  color: $white;
+  color: $primary-color-text;
 }
 .error-wrapper .white-title {
   font-size: $base-font-size*9;
 }
 .red-title {
-  color: $light-red;
-  text-shadow: 1px 1px $dark-white,2px 2px $darker-white;
+  color: $primary-text-color;
+  text-shadow: 1px 1px $divider-color,2px 2px $divider-color;
 }
 
 /**
@@ -91,7 +91,7 @@
     left: 18px;
     height: 100%;
     width: 4px;
-    background: $light-blue;
+    background: $divider-color;
   }
 }
 
@@ -118,10 +118,10 @@
   height: 40px;
   @include border-radius(50%);
   font-size: 16px;
-  border: 3px solid $light-blue;
+  border: 3px solid $divider-color;
   text-align: center;
-  background-color: $blue;
-  color: $white;
+  background-color:$primary-color;
+  color: $primary-color-text;
   i {
     display: block;
     width: 24px;
@@ -137,7 +137,7 @@
 .vertical-timeline-content {
   position: relative;
   margin-left: 60px;
-  background: lighten($blue, 33%);
+  background: lighten($primary-color, 33%);
   @include border-radius(0.25em);
   padding: 1em;
   &:after {
@@ -157,8 +157,6 @@
     right: 100%;
     height: 0;
     width: 0;
-    //border: 7px solid transparent;
-    //border-right: 7px solid $white;
   }
 }
 
@@ -173,7 +171,7 @@
     list-style-type: none;
     margin-bottom: 15px;
     padding: 10px 0;
-    border-top: 1px dashed $light-red;
+    border-top: 1px dashed $primary-text-color;
     &:first-child {
       border-top: none;
       padding-top: 0;
@@ -183,7 +181,7 @@
       color: $grey-color;
     }
     .date {
-      color: $blue;
+      color:$primary-color;
       float: right;
       display: inline-block;
       font-size: 15px;

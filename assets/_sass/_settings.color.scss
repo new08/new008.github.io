@@ -1,12 +1,12 @@
 
 
-$blue:               #62B3E5;
+// $blue:               #62B3E5;
 $light-blue:         #C4E8F8;
-$light-red:          #F68479;
-$white:              #FFF;
+// $light-red:          #F68479;
+// $white:              #FFF;
 $dark-white:         #EFEFEF;
 $darker-white:       #CCC;
-
+// $steel-blue:         #6c83b2;
 
 
 $text-color:         #333;
@@ -15,4 +15,17 @@ $background-color:   #fdfdfd;
 $grey-color:         #999;
 $grey-color-light:   lighten($grey-color, 40%);
 $grey-color-dark:    darken($grey-color, 25%);
+
+/**
+ brown & light blue
+ https://www.materialpalette.com/brown/light-blue
+ */
+$primary-color-dark:   #5D4037;
+$primary-color:        #795548;
+$primary-color-light:  #D7CCC8;
+$primary-color-text:   #FFFFFF;
+$accent-color:         #03A9F4;
+$primary-text-color:   #212121;
+$secondary-text-color: #757575;
+$divider-color:        #BDBDBD;
 

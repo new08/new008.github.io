@@ -2,10 +2,10 @@
   margin-top: 15px;
   > li {
     display: inline-block;
-    background: $blue;
+    background:$primary-color;
     padding: 3px 8px;
     margin: 3px 0px;
-    color: $white;
+    color: $primary-color-text;
     font-size: $small-font-size;
     @include border-radius(0.3em);
     box-shadow: 1px 1px 0 1px $darker-white;
@@ -13,10 +13,10 @@
     @include transition-duration(0.5s);
     > a {
       text-shadow: none;
-      color: $white;
+      color: $primary-color-text;
     }
     &:hover {
-      background-color: $light-red;
+      background-color: $primary-text-color;
   }
   }
 }
@@ -34,7 +34,7 @@
     list-style: none;
     > a {
       text-shadow: none;
-      color: $white;
+      color: $primary-color-text;
       >span {
         letter-spacing: normal;
         padding: 3px 8px;
@@ -43,15 +43,15 @@
   }
 }
 .term {
-  background-color: $light-blue;
+  background-color: $divider-color;
   border-top-left-radius: 0.3em;
   border-bottom-left-radius: 0.3em;
   &:hover {
-    background-color: $blue;
+    background-color:$primary-color;
   }
 }
 .count {
-  background-color: $blue;
+  background-color:$primary-color;
   border-top-right-radius: 0.3em;
   border-bottom-right-radius: 0.3em;
 }

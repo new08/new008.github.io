@@ -90,7 +90,7 @@ li {
  */
 h1, h2, h3, h4, h5, h6 {
     font-weight: $base-font-bold;
-    color: $blue;
+    color: $primary-color;
 }
 h1 {
     font-size:  $font-size-h1;
@@ -119,11 +119,11 @@ h6 {
 blockquote {
     color: $grey-color;
     font-weight: bold;
-    border-left: 0.3em solid $blue;
+    border-left: 0.3em solid $primary-color;
     padding: $spacing-unit / 2;
-    background-color: lighten($light-blue,5%);
+    background-color: lighten($divider-color,5%);
     li {
-        color: $blue;
+        color:$primary-color;
         margin-bottom: 0.5em;
         list-style-position: outside;
     }
@@ -131,8 +131,8 @@ blockquote {
 		margin-bottom: 0;
 	}
     h1, h2, h3, h4, h5, h6 {
-        color: $grey-color;
-        text-shadow:  1px 1px $light-blue ,2px 2px $blue;
+        color: $primary-color;
+        text-shadow:  1px 1px $divider-color ,2px 2px $primary-color;
     }
     >:last-child {
         margin-bottom: 0;
@@ -145,7 +145,7 @@ blockquote {
  */
 hr {
     border: none;
-    border-top: 2px dashed $light-blue;
+    border-top: 2px dashed $divider-color;
 }
 
 
@@ -155,7 +155,7 @@ hr {
  */
 pre,
 code {
-	color: $blue;
+	color:$primary-color;
     @include border-radius(0.5em);
 }
 
@@ -169,7 +169,7 @@ code {
 pre {
     padding: 8px 12px;
     overflow-x: auto;
-	border: 2px solid $light-blue;
+	border: 2px solid $divider-color;
     > code {
         padding-right: 0;
         padding-left: 0;
@@ -249,19 +249,19 @@ p   {
 table {
 	border-collapse: collapse;
 	font-size: $small-font-size;
-	border:solid $light-blue; 
+	border:solid $divider-color;
 	border-width:1px 0px 0px 1px;
 	margin-bottom: 15px;
 	th {
 		color: $grey-color;
-		background-color: $light-blue;
+		background-color: $primary-color;
 		padding: 5px;
-		border:solid $light-blue; 
+		border:solid $primary-color;
 		border-width:0px 1px 1px 0px;
 	}
 	td {
 		padding: 5px;
-		border:solid $light-blue; 
+		border:solid $primary-color;
 		border-width:0px 1px 1px 0px;
 	}
     
