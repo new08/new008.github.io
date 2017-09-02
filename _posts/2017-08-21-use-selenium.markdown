@@ -2,7 +2,8 @@
 layout: post
 title:  "使用 selenium2 进行测试"
 date:   2017-08-21
-categories: selenium selenium2 前端
+categories: post
+tags: selenium selenium2 前端
 ---
 
 # 使用 selenium2 进行测试

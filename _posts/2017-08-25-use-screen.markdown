@@ -2,7 +2,8 @@
 layout: post
 title:  "使用 screen"
 date:   2017-08-25 11:22
-categories: linux screen
+categories: post
+tags: linux screen
 ---
 
 # 使用 screen

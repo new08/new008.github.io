@@ -34,6 +34,10 @@ plugins:
 # redcarpet:
 #     extensions: [ "hard_wrap","autolink", "tables", "strikethrough", "superscript", "with_toc_data", "highlight", "prettify","no_intra_emphasis"]
 
+# Comment
+comment:
+  changyan: zillionmile
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

@@ -2,7 +2,8 @@
 layout: post
 title:  "jekyll 配置修改"
 date:   2017-08-25 
-categories: jekyll
+categories: post
+tags: jekyll
 ---
 
 # jekyll 配置修改

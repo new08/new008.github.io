@@ -2,7 +2,8 @@
 layout: post
 title:  "搭建 jekyll"
 date:   2017-08-24 17:49
-categories: jekyll
+categories: post
+tags: jekyll
 ---
 
 # 搭建 jekyll
